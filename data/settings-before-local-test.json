@@ -1,0 +1,12 @@
+{
+  "roots": [],
+  "endpoint": "http://127.0.0.1:8080",
+  "serverPath": "",
+  "ffmpeg": "",
+  "baseModel": "",
+  "mmproj": "",
+  "gpuLayers": 0,
+  "contextSize": 8192,
+  "temperature": 0.7,
+  "maxTokens": 2048
+}

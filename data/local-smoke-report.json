@@ -1,0 +1,58 @@
+{
+  "testedAt": "2026-09-18T03:14:25.917Z",
+  "modelDir": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL",
+  "ffmpeg": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ffmpeg-8.1.2-essentials_build\\bin\\ffmpeg.exe",
+  "models": [
+    {
+      "path": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.mmproj-Q8_0.gguf",
+      "name": "Huihui-Qwen3-VL-8B-Instruct-abliterated.mmproj-Q8_0.gguf",
+      "size": 752290176,
+      "kind": "mmproj",
+      "architecture": "clip",
+      "modelName": "Huihui Qwen3 VL 8B Instruct Abliterated",
+      "vision": true,
+      "audio": false,
+      "runnable": true,
+      "error": "",
+      "shard": "",
+      "suggestions": []
+    },
+    {
+      "path": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf",
+      "name": "Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf",
+      "size": 5027785728,
+      "kind": "base",
+      "architecture": "qwen3vl",
+      "modelName": "Huihui Qwen3 VL 8B Instruct Abliterated",
+      "vision": false,
+      "audio": false,
+      "runnable": true,
+      "error": "",
+      "shard": "",
+      "suggestions": [
+        "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.mmproj-Q8_0.gguf"
+      ]
+    },
+    {
+      "path": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q8_0.gguf",
+      "name": "Huihui-Qwen3-VL-8B-Instruct-abliterated.Q8_0.gguf",
+      "size": 8709520384,
+      "kind": "base",
+      "architecture": "qwen3vl",
+      "modelName": "Huihui Qwen3 VL 8B Instruct Abliterated",
+      "vision": false,
+      "audio": false,
+      "runnable": true,
+      "error": "",
+      "shard": "",
+      "suggestions": [
+        "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.mmproj-Q8_0.gguf"
+      ]
+    }
+  ],
+  "videoFrames": 6,
+  "audioConversion": "M4A → WAV passed (pipeline only, not model inference)",
+  "unsupportedAudio": "blocked correctly",
+  "inference": "not tested: llama-server executable required",
+  "modelFilesUnchanged": true
+}

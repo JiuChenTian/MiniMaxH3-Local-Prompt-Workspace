@@ -1,0 +1,62 @@
+{
+  "testedAt": "2026-09-18T03:18:25.264Z",
+  "capabilities": {
+    "connected": true,
+    "models": [
+      "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf"
+    ],
+    "vision": true,
+    "audio": false,
+    "known": true,
+    "modelPath": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf"
+  },
+  "results": [
+    {
+      "name": "text",
+      "seconds": 5.034,
+      "output": "雨夜，修表师颤抖着双手打开怀表，表盘泛起幽蓝微光，指针骤停，镜头推近特写表内齿轮转动，水珠从发丝滴落，背景雨声渐强。",
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 336,
+        "total_tokens": 388,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "truncated": false,
+      "id": "69baef17-f493-4ae3-abc5-ec162d1da5cc"
+    },
+    {
+      "name": "image",
+      "seconds": 4.157,
+      "output": "纯红色背景，无纹理，无渐变，无装饰，画面简洁，色调饱和，适配16:9比例，静态镜头，5秒时长。",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 377,
+        "total_tokens": 414,
+        "prompt_tokens_details": {
+          "cached_tokens": 302
+        }
+      },
+      "truncated": false,
+      "id": "8e7621ea-64f8-4543-8e15-351ffc1478ea"
+    },
+    {
+      "name": "video",
+      "seconds": 3.864,
+      "output": "纯红色背景，无任何物体或纹理，画面均匀明亮，无动态变化，适合作为高饱和度视觉基底。",
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 972,
+        "total_tokens": 1001,
+        "prompt_tokens_details": {
+          "cached_tokens": 305
+        }
+      },
+      "truncated": false,
+      "id": "6a1c5c98-bf06-4c16-a247-b0c0768e19af"
+    }
+  ],
+  "audio": "服务未声明音频能力；工作台正确阻止音频识别",
+  "modelFilesUnchanged": true
+}

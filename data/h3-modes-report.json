@@ -1,0 +1,76 @@
+{
+  "testedAt": "2026-09-18T08:00:14.779Z",
+  "results": [
+    {
+      "mode": "T2VA",
+      "output": "[integrated_multimodal_description]  \n[Shot 1] 画面起始于柔和暖橙色纯色背景，光线从左上角缓慢向右下角平移，持续2秒。第3秒起，画面渐变过渡至浅灰蓝，光线移动速度加快，最终在第5秒静止于中央。无角色、无文字、无声音，仅视觉色彩与光效运动。\n\n[overall_soundscape]  \n环境音：无。物理音效：无。仅存在极轻微的色彩过渡“呼吸”式渐变声（可选）。\n\n[non_diegetic_music]  \nN/A",
+      "usage": {
+        "completion_tokens": 135,
+        "prompt_tokens": 514,
+        "total_tokens": 649,
+        "prompt_tokens_details": {
+          "cached_tokens": 421
+        }
+      },
+      "truncated": false,
+      "id": "60ae5b93-8959-46fd-ad87-e32e041d109d"
+    },
+    {
+      "mode": "I2VA",
+      "output": "[integrated_multimodal_description]\n<Shot 1> 0秒起始，全画面为纯红色（red.png），柔和光线从左上角缓慢向右下角平移，持续2秒。第3秒开始，红色渐变为橙色，第5秒完成为纯橙色。无角色、无动作，仅色彩与光效运动。\n\n[overall_soundscape]\n环境音：轻微呼吸声（0-5秒）；物理音效：无。\n\n[non_diegetic_music]\nN/A",
+      "usage": {
+        "completion_tokens": 112,
+        "prompt_tokens": 571,
+        "total_tokens": 683,
+        "prompt_tokens_details": {
+          "cached_tokens": 210
+        }
+      },
+      "truncated": false,
+      "id": "9822024f-1f75-40b9-94c0-0cdadc5d03ab"
+    },
+    {
+      "mode": "FL2VA",
+      "output": "integrated_multimodal_description: 画面从纯红渐变为纯蓝，柔和光线平滑过渡，无角色或物体，仅色彩变化。镜头静止，无运镜。  \noverall_soundscape: N/A  \nnon_diegetic_music: N/A",
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 644,
+        "total_tokens": 701,
+        "prompt_tokens_details": {
+          "cached_tokens": 210
+        }
+      },
+      "truncated": false,
+      "id": "7f0569d9-d18e-4968-aaee-dbd92357b96d"
+    },
+    {
+      "mode": "L2VA",
+      "output": "integrated_multimodal_description: 画面从柔和的浅蓝渐变至纯深蓝，无主体，仅色彩平滑流动。镜头静止，无运镜，无声音。  \noverall_soundscape: N/A  \nnon_diegetic_music: N/A",
+      "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 574,
+        "total_tokens": 632,
+        "prompt_tokens_details": {
+          "cached_tokens": 210
+        }
+      },
+      "truncated": false,
+      "id": "97fcd968-66a6-4600-a966-ea456be379f7"
+    },
+    {
+      "mode": "REF2VA",
+      "output": "subject_definitions:\n<Subject 1>：背景色块，<Picture 1> fully_preserved，无实体或动作，仅保留纯红色视觉属性。\n\nsummary:\n5秒纯色渐变短片，从<Picture 1>红色平滑过渡至无色，柔和光感在画面上缓慢移动，无叙事或人物。\n\nretention_analysis:\n仅保留<Subject 1>的色彩与静态属性，无其他视觉或动作元素需延续。\n\ndetailed_description:\n[Shot 1] 画面从<Subject 1>的纯红色开始，无相机运动，光线从左上角缓慢向右下角移动，持续5秒。色彩在第3秒后开始平滑褪色至无色，最终画面为白色，无物体或人物出现。\n\noverall_soundscape:\n环境音：无。\n\nnon_diegetic_music:\nN/A",
+      "usage": {
+        "completion_tokens": 185,
+        "prompt_tokens": 612,
+        "total_tokens": 797,
+        "prompt_tokens_details": {
+          "cached_tokens": 210
+        }
+      },
+      "truncated": false,
+      "id": "002d474a-0345-4f91-bc6e-8c0e542ccd51"
+    }
+  ],
+  "englishToChinese": "[Shot 1] 在0.00秒时，<Picture 1> 建立了一个红色背景。摄像机保持静止。"
+}

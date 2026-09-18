@@ -1,0 +1,6 @@
+{
+  "testedAt": "2026-09-18T07:57:12.712Z",
+  "device": "CUDA0",
+  "earlyStop": "passed: received partial output, cancelled request, no completion",
+  "consoleClose": "passed: killed console owner, both application and real llama-server stopped"
+}

@@ -1,0 +1,21 @@
+{
+  "roots": [
+    "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL"
+  ],
+  "endpoint": "http://127.0.0.1:8080",
+  "serverPath": "D:\\software\\llama-b10588-bin-win-cuda-13.3-x64\\llama-server.exe",
+  "serverPaths": [
+    "D:\\software\\llama-b10588-bin-win-cuda-13.3-x64\\llama-server.exe"
+  ],
+  "ffmpeg": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ffmpeg-8.1.2-essentials_build\\bin\\ffmpeg.exe",
+  "ffmpegPaths": [
+    "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ffmpeg-8.1.2-essentials_build\\bin\\ffmpeg.exe"
+  ],
+  "baseModel": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf",
+  "mmproj": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.mmproj-Q8_0.gguf",
+  "device": "CUDA0",
+  "gpuLayers": 0,
+  "contextSize": 8192,
+  "temperature": 0.7,
+  "maxTokens": 2048
+}

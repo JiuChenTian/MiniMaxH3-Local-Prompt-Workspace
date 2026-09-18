@@ -1,0 +1,13 @@
+{
+  "name": "h3-local-prompt-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File windows-console.ps1",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
