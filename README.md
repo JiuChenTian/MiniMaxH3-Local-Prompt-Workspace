@@ -4,7 +4,7 @@
 
 ## 启动
 
-1. 使用 Node.js 22 或以上版本（当前开发电脑已有 Node.js 24）。无需安装 npm 依赖。
+1. 使用 Node.js 22 或以上版本，需安装 npm 依赖。
 2. 双击 **启动工作台.bat**，保持启动窗口开启；程序就绪后自动打开 http://127.0.0.1:3210 。重复启动会打开已有工作台并保持控制台；关闭任一已连接控制台就停止工作台（复用窗口断开检测最多约 8 秒）。Windows 启动脚本采用 ASCII 内容及 CRLF 换行，避免中文编码与批处理解析问题。
 3. 打开「模型与设置」，添加模型文件夹，每行一个绝对路径，点击「保存目录并扫描」。启动时也自动扫描已保存的目录。
 4. 选择 GGUF 基础模型，需要多模态时选择配套 mmproj，填写 `llama-server.exe` 完整路径，然后「保存并启动模型」。
@@ -49,7 +49,7 @@
 
 已实际逐项点击核对 [Prompt Builder 的五种模式](https://minimaxh3.studio/zh/guide/minimax-h3/prompt-builder)，按首帧、尾帧及参考生成分别构建写作指令。基础结构和 REF2VA 使用不同字段，参考素材按图片/视频/音频独立编号。
 
-遵循用户指定的 [MiniMax H3 提示词指南](https://minimaxh3.studio/zh/guide/minimax-h3)：先确定工作流与镜头结构，再组织主体、动作、环境、美学、镜头和声音，并给每份参考素材分配明确职责。程序使用自己的编写指令，没有复制指南示例。网页描述的平台限制可能变化，软件中的时长/比例是写作参数，不保证目标平台接受。
+[MiniMax H3 提示词指南](https://minimaxh3.studio/zh/guide/minimax-h3)：先确定工作流与镜头结构，再组织主体、动作、环境、美学、镜头和声音，并给每份参考素材分配明确职责。程序使用自己的编写指令，没有复制指南示例。网页描述的平台限制可能变化，软件中的时长/比例是写作参数，不保证目标平台接受。
 
 本地推理协议参考 [llama.cpp 服务文档](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md) 与 [多模态说明](https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal.md)。
 
@@ -57,6 +57,6 @@
 
 自动化测试覆盖目录扫描与去重、GGUF 元数据/投影识别、无效文件、分片、剧情隔离、多模态能力限制、本地地址限制、程序多路径识别和启动复用，以及模拟本地服务的真实 HTTP 请求协议。
 
-本机已使用用户提供的 Huihui-Qwen3-VL-8B Q4_K_M、配套 mmproj、llama.cpp b10588 及 FFmpeg 完成真实文字扩写、纯色图片识别和短视频抽帧识别测试。该服务报告不支持音频，工作台正确拒绝音频识别；音频格式转换另行通过。测试报告在 `data/local-smoke-report.json` 和 `data/live-model-report.json`。这些是兼容性冒烟测试，不代表复杂剧情或长视频识别质量已充分评估。用户提供的模型和工具目录只读使用，测试素材仅写入系统临时目录。
+已使用 Huihui-Qwen3-VL-8B Q4_K_M、配套 mmproj、llama.cpp b10588 及 FFmpeg 完成真实文字扩写、纯色图片识别和短视频抽帧识别测试。该模型不支持音频识别，工作台正确拒绝音频识别。测试报告在 `data/local-smoke-report.json` 和 `data/live-model-report.json`。
 
-新增实测：RTX 5090 由当前引擎动态检测后选用；完成流式文字输出和中译英对照。`data/runtime-controls-report.json` 记录真实输出提前终止，以及强制结束独立控制台后工作台与真实 llama-server 同时退出的结果。
+新增实测：Gpu由当前引擎动态检测后选用；完成流式文字输出和中译英对照。`data/runtime-controls-report.json` 记录真实输出提前终止，以及强制结束独立控制台后工作台与真实 llama-server 同时退出的结果。
