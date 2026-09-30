@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-21T05:31:09.616Z",
+  "info": {
+    "frameCount": 200,
+    "fps": 10,
+    "width": 320,
+    "height": 240,
+    "duration": 20
+  },
+  "sampledFrames": [
+    171,
+    177,
+    184,
+    190
+  ],
+  "firstFrameRGB": [
+    1,
+    0,
+    255
+  ],
+  "passed": true
+}

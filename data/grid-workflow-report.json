@@ -1,0 +1,83 @@
+{
+  "testedAt": "2026-09-18T08:28:49.863Z",
+  "results": [
+    {
+      "mode": "T2VA",
+      "assets": 0,
+      "output": "[integrated_multimodal_description]\n[Shot 1] 画面从黑暗中缓缓亮起，一个孤独身影站在空旷走廊尽头，手持发光装置，镜头以低角度缓慢推进，聚焦其凝视前方的沉默姿态。\n\n[overall_soundscape]\n环境音：微弱脚步声与金属回响，渐强至轻微喘息声；无对话。\n\n[non_diegetic_music]\nN/A",
+      "usage": {
+        "completion_tokens": 88,
+        "prompt_tokens": 608,
+        "total_tokens": 696,
+        "prompt_tokens_details": {
+          "cached_tokens": 241
+        }
+      },
+      "truncated": false,
+      "id": "b3342e8f-0c35-4707-aa00-84a5da3b58d7"
+    },
+    {
+      "mode": "T2VA",
+      "assets": 1,
+      "output": "[integrated_multimodal_description]\n[Shot 1] 纯红色背景中，一滴水珠从屏幕顶端缓缓坠落，折射出微弱白光，无声砸入下方空无一物的黑暗区域，瞬间蒸发。\n\n[overall_soundscape]\n环境音：无。仅在水滴坠落瞬间伴随极轻的“噗”声，持续0.1秒后消失。\n\n[non_diegetic_music]\nN/A",
+      "usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 635,
+        "total_tokens": 731,
+        "prompt_tokens_details": {
+          "cached_tokens": 563
+        }
+      },
+      "truncated": false,
+      "id": "6b62a174-0644-4c4b-8eed-dad2c7fa8bee"
+    },
+    {
+      "mode": "FL2VA",
+      "assets": 3,
+      "output": "integrated_multimodal_description:\n[Shot 1] 画面从纯红色背景开始，保持静态无变化，持续至5秒尾帧。无主体、无动作、无环境细节，仅呈现均匀饱和的红色。相机无运动，无镜头切换。无声音。\n\noverall_soundscape:\nN/A\n\nnon_diegetic_music:\nN/A",
+      "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 775,
+        "total_tokens": 851,
+        "prompt_tokens_details": {
+          "cached_tokens": 241
+        }
+      },
+      "truncated": false,
+      "id": "e1645c18-34c0-4063-b562-abfd4fbe4d90"
+    },
+    {
+      "mode": "GRID",
+      "assets": 2,
+      "output": "【总体剧情】  \n一个孤独身影在纯红背景中缓缓转身，从静止到奔跑，最终跃向画面外的未知空间。\n\n【角色外观强制参考】  \n身穿深灰色连体工装，无面部特征，背部有金属铆钉装饰，双手戴黑色手套，脚穿厚底靴。\n\n【环境与空间方向】  \n纯红色无纹理背景，无光影变化，无环境声，空间为无限延伸的二维平面，角色始终位于画面中央偏左。\n\n【特效规则】  \n无粒子特效，无爆炸，无音效，仅保留角色动作与背景颜色。\n\n【0—1.33秒｜第1宫格】  \n角色静止站立，面向画面右方，双手自然垂落，背景纯红无变化。\n\n【1.33—2.67秒｜第2宫格】  \n角色头部缓慢向左转动，视线转向画面左方，身体轻微前倾，准备动作。\n\n【2.67—4秒｜第3宫格】  \n角色右脚后撤半步，左脚蹬地，身体前倾，双臂后摆，进入奔跑前预备姿态。\n\n【4—5.33秒｜第4宫格】  \n角色左脚向前迈出，右脚跟上，开始向画面右方匀速奔跑，身体略微前倾，双臂摆动。\n\n【5.33—6.67秒｜第5宫格】  \n角色奔跑速度加快，双臂大幅度摆动，身体重心降低，逐渐接近画面右侧边缘。\n\n【6.67—8秒｜第6宫格】  \n角色右脚腾空，左脚蹬地，身体前冲，双臂前伸，进入跳跃姿态，准备跃出画面。\n\n【8—9.33秒｜第7宫格】  \n角色双脚离地，身体呈前倾跳跃姿态，双臂前伸，头部朝向画面右方，即将跃出画面。\n\n【9.33—10.67秒｜第8宫格】  \n角色身体继续前冲，头部完全转向画面右方，双脚在画面右侧边缘完成腾空动作。\n\n【10.67—12秒｜第9宫格】  \n角色身体完全跃出画面右边缘，仅留下背景纯红，无任何残留物或轨迹。\n\n【声音与连续性】  \nN/A，全程无声，仅保留角色动作与背景颜色。",
+      "usage": {
+        "completion_tokens": 522,
+        "prompt_tokens": 1365,
+        "total_tokens": 1887,
+        "prompt_tokens_details": {
+          "cached_tokens": 674
+        }
+      },
+      "truncated": false,
+      "id": "0a152e85-07e4-4d4d-bfd1-4850f4fe6460"
+    }
+  ],
+  "analysis": [
+    {
+      "mode": "GRID",
+      "analysis": "纯红色背景，无纹理或图案，颜色均匀饱和，无光影变化，无动作或声音。仅用于参考颜色，不包含其他视觉或听觉元素。"
+    },
+    {
+      "mode": "FL2VA",
+      "analysis": "纯红色背景，无纹理或图案，颜色均匀饱和，无光影变化，无动作或声音。仅用于参考颜色，不包含其他视觉或听觉信息。"
+    },
+    {
+      "mode": "T2VA",
+      "analysis": "纯红色背景，无纹理或图案，均匀饱和度，无光影变化，无动作或声音。仅用于颜色参考，无其他视觉属性。"
+    },
+    {
+      "mode": "T2VA",
+      "analysis": ""
+    }
+  ]
+}

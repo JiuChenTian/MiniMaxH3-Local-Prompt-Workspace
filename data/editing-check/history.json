@@ -1,0 +1,61 @@
+[
+  {
+    "id": "8b9cc627-41e3-4456-908a-59ead817b54c",
+    "createdAt": "2026-09-21T05:32:52.114Z",
+    "script": "将原片的背景改为绿色，保留机位、镜头运动、人物外观与动作。不增加其他元素。仅编写简短编辑提示词。",
+    "mode": "EDIT",
+    "output": "subject_definitions:\n<Subject 1> 背景 — <Video 1> (red-then-blue.mp4；待编辑原片，只改变背景颜色；原视频第171–190帧)\n\nedit_goal: 将 <Video 1> 中的背景从深蓝色替换为纯绿色，保留所有机位、镜头运动、人物外观与动作，不增加任何新元素。\n\npreserved_elements:\n- 机位与镜头运动：完全保留原片运镜轨迹与节奏。\n- 人物外观与动作：完全保留原片中所有人物的外形、姿态、运动轨迹与表演。\n- 空间构图：保留原片构图比例（16:9）与主体相对位置。\n- 光照与色彩氛围：仅改变背景色，不调整整体明暗或色温。\n\nediting_instructions:\n[Shot 1 | 0-5s]  \n- 画面：原片 <Video 1> 的完整5秒内容，仅将背景从深蓝色替换为纯绿色。  \n- 运镜：完全复制原片的镜头运动（包括平移、缩放、旋转等），无新增或修改。  \n- 人物：所有人物动作、服饰、姿态、表情与相对位置保持原样，无变化。  \n- 色彩：背景统一为纯绿色（#00ff00 或等效色值），其余画面元素（人物、前景、光线）不变。\n\noverall_soundscape: N/A  \nnon_diegetic_music: N/A",
+    "model": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf",
+    "linkContext": false,
+    "duration": 5,
+    "ratio": "16:9",
+    "language": "zh",
+    "outputFormat": "structured",
+    "referenceAnalysis": "<Video 1> 文件：red-then-blue.mp4；对象：背景；作用：待编辑原片，只改变背景颜色\n观察摘要：\n纯蓝色背景，无纹理或物体，画面均匀，无动态变化。采样帧显示背景颜色一致，无光照或空间变化。无声音信息。编辑时仅需替换背景色，原色为深蓝色。",
+    "assets": [
+      {
+        "name": "red-then-blue.mp4",
+        "ext": "mp4",
+        "kind": "video",
+        "mime": "video/mp4",
+        "size": 7401,
+        "role": "待编辑原片，只改变背景颜色",
+        "target": "背景",
+        "slot": "reference",
+        "frameStart": 171,
+        "frameEnd": 190,
+        "sampleCount": 4,
+        "label": "<Video 1>",
+        "videoInfo": {
+          "frameCount": 200,
+          "fps": 10,
+          "width": 320,
+          "height": 240,
+          "duration": 20
+        },
+        "sampledFrames": [
+          171,
+          177,
+          184,
+          190
+        ],
+        "storageKey": "147a0af9926b0a274b0cf9550c76e1d5f7c6a49030a46ab97f1f690d375c06e1.mp4"
+      }
+    ]
+  },
+  {
+    "id": "f2e970de-afe5-46ee-9376-f0eaee5db8bd",
+    "createdAt": "2026-09-21T05:32:49.498Z",
+    "script": "将原片的背景改为绿色，保留机位、镜头运动、人物外观与动作。不增加其他元素。仅编写简短编辑提示词。",
+    "mode": "EDIT",
+    "output": "edit_goal: 将原片背景统一替换为绿色，保留所有机位、镜头运动、人物外观与动作，不增删任何元素。\n\npreserved_elements:\n- 所有镜头运动（推、拉、摇、移等）及速度、幅度完全保留\n- 人物外观（服装、发型、肤色、表情）与动作（姿态、手势、移动轨迹）完全保留\n- 原有构图比例（16:9）与景别关系（如中景、近景）完全保留\n- 光线与色彩风格中仅背景色改变，人物与前景色彩保持原样\n\nediting_instructions:\n[Shot 1 | 0-5s]  \n- 背景统一替换为纯绿色（RGB 0, 255, 0 或等效饱和度绿色），保留所有前景主体与镜头运动\n- 人物动作、机位、构图、运镜节奏完全保留，无新增或删减元素\n- 画面比例保持 16:9，总时长 5 秒，无分镜间隙\n\noverall_soundscape: N/A  \nnon_diegetic_music: N/A",
+    "model": "C:\\software\\NovalAI\\Comfy-Desktop\\ComfyUI\\ComfyUI\\models\\LLM\\Huihui-Qwen3-VL\\Huihui-Qwen3-VL-8B-Instruct-abliterated.Q4_K_M.gguf",
+    "linkContext": false,
+    "duration": 5,
+    "ratio": "16:9",
+    "language": "zh",
+    "outputFormat": "structured",
+    "referenceAnalysis": "",
+    "assets": []
+  }
+]
